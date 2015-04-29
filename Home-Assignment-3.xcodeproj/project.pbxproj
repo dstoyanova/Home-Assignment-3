@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		759F07DD1AE92DDF0027B94D /* AlbumDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F07DC1AE92DDF0027B94D /* AlbumDetailsViewController.m */; };
+		759F07E01AE92EDD0027B94D /* AddAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F07DF1AE92EDD0027B94D /* AddAlbumViewController.m */; };
+		759F07E31AE9355B0027B94D /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F07E21AE9355B0027B94D /* Song.m */; };
+		759F07E71AE956580027B94D /* Default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 759F07E61AE956580027B94D /* Default.jpg */; };
 		75B3CAA61AE911B6003071E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B3CAA51AE911B6003071E4 /* main.m */; };
 		75B3CAA91AE911B6003071E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B3CAA81AE911B6003071E4 /* AppDelegate.m */; };
 		75B3CAAC1AE911B6003071E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B3CAAB1AE911B6003071E4 /* ViewController.m */; };
@@ -14,6 +18,11 @@
 		75B3CAB11AE911B6003071E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B3CAB01AE911B6003071E4 /* Images.xcassets */; };
 		75B3CAB41AE911B6003071E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B3CAB21AE911B6003071E4 /* LaunchScreen.xib */; };
 		75B3CAC01AE911B6003071E4 /* Home_Assignment_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B3CABF1AE911B6003071E4 /* Home_Assignment_3Tests.m */; };
+		75B3CACB1AE91376003071E4 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B3CACA1AE91376003071E4 /* Album.m */; };
+		75B3CACE1AE914FD003071E4 /* AlbumSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B3CACD1AE914FD003071E4 /* AlbumSingleton.m */; };
+		75B3CAD21AE9175D003071E4 /* Not Afraid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75B3CACF1AE9175D003071E4 /* Not Afraid.jpg */; };
+		75B3CAD31AE9175D003071E4 /* Alive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75B3CAD01AE9175D003071E4 /* Alive.jpg */; };
+		75B3CAD41AE9175D003071E4 /* Superheroes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75B3CAD11AE9175D003071E4 /* Superheroes.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		759F07DB1AE92DDF0027B94D /* AlbumDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDetailsViewController.h; sourceTree = "<group>"; };
+		759F07DC1AE92DDF0027B94D /* AlbumDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDetailsViewController.m; sourceTree = "<group>"; };
+		759F07DE1AE92EDD0027B94D /* AddAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAlbumViewController.h; sourceTree = "<group>"; };
+		759F07DF1AE92EDD0027B94D /* AddAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAlbumViewController.m; sourceTree = "<group>"; };
+		759F07E11AE9355B0027B94D /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		759F07E21AE9355B0027B94D /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		759F07E61AE956580027B94D /* Default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Default.jpg; sourceTree = "<group>"; };
 		75B3CAA01AE911B6003071E4 /* Home-Assignment-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home-Assignment-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B3CAA41AE911B6003071E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75B3CAA51AE911B6003071E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +56,13 @@
 		75B3CAB91AE911B6003071E4 /* Home-Assignment-3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home-Assignment-3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75B3CABE1AE911B6003071E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75B3CABF1AE911B6003071E4 /* Home_Assignment_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home_Assignment_3Tests.m; sourceTree = "<group>"; };
+		75B3CAC91AE91376003071E4 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		75B3CACA1AE91376003071E4 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		75B3CACC1AE914FD003071E4 /* AlbumSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumSingleton.h; sourceTree = "<group>"; };
+		75B3CACD1AE914FD003071E4 /* AlbumSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumSingleton.m; sourceTree = "<group>"; };
+		75B3CACF1AE9175D003071E4 /* Not Afraid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Not Afraid.jpg"; sourceTree = "<group>"; };
+		75B3CAD01AE9175D003071E4 /* Alive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alive.jpg; sourceTree = "<group>"; };
+		75B3CAD11AE9175D003071E4 /* Superheroes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Superheroes.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +104,24 @@
 		75B3CAA21AE911B6003071E4 /* Home-Assignment-3 */ = {
 			isa = PBXGroup;
 			children = (
+				75B3CACF1AE9175D003071E4 /* Not Afraid.jpg */,
+				75B3CAD01AE9175D003071E4 /* Alive.jpg */,
+				75B3CAD11AE9175D003071E4 /* Superheroes.jpg */,
+				759F07E61AE956580027B94D /* Default.jpg */,
+				759F07E11AE9355B0027B94D /* Song.h */,
+				759F07E21AE9355B0027B94D /* Song.m */,
+				75B3CAC91AE91376003071E4 /* Album.h */,
+				75B3CACA1AE91376003071E4 /* Album.m */,
+				75B3CACC1AE914FD003071E4 /* AlbumSingleton.h */,
+				75B3CACD1AE914FD003071E4 /* AlbumSingleton.m */,
 				75B3CAA71AE911B6003071E4 /* AppDelegate.h */,
 				75B3CAA81AE911B6003071E4 /* AppDelegate.m */,
 				75B3CAAA1AE911B6003071E4 /* ViewController.h */,
 				75B3CAAB1AE911B6003071E4 /* ViewController.m */,
+				759F07DE1AE92EDD0027B94D /* AddAlbumViewController.h */,
+				759F07DF1AE92EDD0027B94D /* AddAlbumViewController.m */,
+				759F07DB1AE92DDF0027B94D /* AlbumDetailsViewController.h */,
+				759F07DC1AE92DDF0027B94D /* AlbumDetailsViewController.m */,
 				75B3CAAD1AE911B6003071E4 /* Main.storyboard */,
 				75B3CAB01AE911B6003071E4 /* Images.xcassets */,
 				75B3CAB21AE911B6003071E4 /* LaunchScreen.xib */,
@@ -200,8 +237,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				75B3CAAF1AE911B6003071E4 /* Main.storyboard in Resources */,
+				75B3CAD21AE9175D003071E4 /* Not Afraid.jpg in Resources */,
+				75B3CAD31AE9175D003071E4 /* Alive.jpg in Resources */,
 				75B3CAB41AE911B6003071E4 /* LaunchScreen.xib in Resources */,
+				759F07E71AE956580027B94D /* Default.jpg in Resources */,
 				75B3CAB11AE911B6003071E4 /* Images.xcassets in Resources */,
+				75B3CAD41AE9175D003071E4 /* Superheroes.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759F07E31AE9355B0027B94D /* Song.m in Sources */,
+				759F07E01AE92EDD0027B94D /* AddAlbumViewController.m in Sources */,
 				75B3CAAC1AE911B6003071E4 /* ViewController.m in Sources */,
 				75B3CAA91AE911B6003071E4 /* AppDelegate.m in Sources */,
 				75B3CAA61AE911B6003071E4 /* main.m in Sources */,
+				75B3CACE1AE914FD003071E4 /* AlbumSingleton.m in Sources */,
+				75B3CACB1AE91376003071E4 /* Album.m in Sources */,
+				759F07DD1AE92DDF0027B94D /* AlbumDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +462,7 @@
 				75B3CAC51AE911B6003071E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75B3CAC61AE911B6003071E4 /* Build configuration list for PBXNativeTarget "Home-Assignment-3Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +471,7 @@
 				75B3CAC81AE911B6003071E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

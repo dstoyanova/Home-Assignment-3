@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AlbumSingleton.h"
+#import "AddAlbumViewController.h"
+#import "AlbumDetailsViewController.h"
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
-
